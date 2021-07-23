@@ -1,0 +1,63 @@
+.header {
+  display: block;
+  position: relative;
+
+  background: #025caa;
+
+  min-width: 320px;
+  z-index: 99;
+}
+
+.head {
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  padding: 10px 0;
+  float: left;
+  margin-left: 10px;
+}
+.logo img {
+  width: 220px;
+  margin: 15px 0 10px 0;
+}
+
+.List {
+  display: block;
+  width: 800px;
+  margin-left: 100px;
+}
+
+.List ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.List li {
+  width: 100px;
+}
+
+.List ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  font-size: 19px;
+
+  font-weight: bold;
+  line-height: 50px;
+}
