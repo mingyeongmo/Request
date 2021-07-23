@@ -1,5 +1,92 @@
+.main_contents {
+  width: 2042px;
+  height: 1330px;
+  display: block;
+  position: relative;
+  margin-bottom: 5px;
+}
+
 .main_slider {
+  width: 2042px;
+  height: 1082px;
+  display: flex;
+
   background-size: cover;
-  background-image: url("http://www.1877-7905.com/img_up/shop_pds/ateam91758/design/img/main_bg1.jpg")
-    50% 50% no-repeat;
+  background: url("../../Asset/main_bg1.jpeg") 50% 50% no-repeat;
+  background-position: -65px;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.content1 {
+  border: 1px solid #ddd;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.main_con {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main_con div {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2px 5px 0;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner li {
+  width: 19%;
+  margin: 0.5%;
+}
+
+.banner a {
+  text-decoration: none;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.txt {
+  font-size: 23px;
+
+  position: absolute;
+
+  top: 30px;
+  margin-left: 20px;
+  padding: 5px;
+  color: #fff;
+  font-weight: bold;
+
+  text-shadow: 2px 2px 5px #353535, -2px -2px 5px #353535, 2px -2px 5px #353535,
+    -2px 2px 5px #353535;
+}
+
+.txt span {
+  font-size: 16px;
+  display: block;
+  font-weight: normal;
+}
+
+.txt span::before {
+  border-bottom: 2px solid #fff;
+  content: " ";
+  display: block;
+  width: 37px;
 }
