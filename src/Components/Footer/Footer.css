@@ -1,0 +1,51 @@
+.Footer {
+  background: #3e3e3e;
+}
+
+.Footer .foter {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  display: table;
+  text-align: center;
+  padding: 2em 10px 1em;
+}
+
+.address {
+  width: 600px;
+  margin: 5px 50px 0 0;
+  float: right;
+
+  text-align: left;
+
+  display: table;
+  color: #f1f1f1;
+  line-height: 20px;
+}
+
+.address p {
+  font-size: 14px;
+}
+.address one {
+  display: inline;
+}
+
+.address .tel {
+  font-size: 17px;
+  color: #ff0;
+}
+
+.address span {
+  font-size: 14px;
+}
+
+.copyright {
+  color: #808080;
+  font-size: 13px;
+  margin: 0.8px auto;
+}
+
+.copyright a {
+  text-decoration: none !important;
+  color: #808080;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from './Components/Header/Header';
 import Contents from './Components/Contents/Contents';
+import Footer from './Components/Footer/Footer';
 
 import {createGlobalStyle} from 'styled-components';
 
@@ -19,6 +20,7 @@ function App() {
     <GlobalStyle />
       <Header />
       <Contents />
+      <Footer />
     </>
   );
 }
