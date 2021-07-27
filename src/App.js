@@ -1,9 +1,9 @@
 import React from "react";
-import Header from './Components/Header/Header';
-import Contents from './Components/Contents/Contents';
-import Footer from './Components/Footer/Footer';
-
+import MainPage from './Components/Page/MainPage';
 import {createGlobalStyle} from 'styled-components';
+
+import OnePage from './Components/Page/OnePage';
+import TwoPage from './Components/Page/TwoPage';
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -17,10 +17,12 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   return (
     <>
+    
     <GlobalStyle />
-      <Header />
-      <Contents />
-      <Footer />
+      <TwoPage />
+      
+      
+      
     </>
   );
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css';
 
+
 const Header = () => {
     return (
         <header className="header">
@@ -16,7 +17,6 @@ const Header = () => {
                         <li><a href="#">입지환경</a></li>
                         <li><a href="#">단지안내</a></li>
                         <li><a href="#">타입안내</a></li>
-                        <li><a href="#">뉴스정보</a></li>
                     </ul>
                 </div>
             </div>

@@ -1,0 +1,28 @@
+.side {
+  display: block;
+  float: left;
+  width: 190px;
+  margin-top: -25px;
+}
+
+.side h2 {
+  color: #018087;
+
+  font-size: 29px;
+  font-weight: bold;
+  letter-spacing: -2px;
+
+  margin: 24px 0;
+}
+
+.side ul {
+  width: 150px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid #bebebe;
+}
+
+.side img {
+  width: 155px;
+}
