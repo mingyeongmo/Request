@@ -7,7 +7,7 @@
   max-width: 1200px;
 
   margin: 0 auto;
-  background: url("../../Asset/container_bg.gif") -700px 0 repeat-y;
+  background: url("../../../Asset/container_bg.gif") -700px 0 repeat-y;
 }
 
 .contents {

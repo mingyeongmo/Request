@@ -9,12 +9,13 @@ const Center = ( props ) => {
         <div className="contents">
             <h3>{ subtle }</h3>
             <center>
-                    <img src={require("../../Asset/subpage/onepage1.jpeg").default} />
+                    <img src={require("../../../Asset/subpage/twopage2.jpeg").default} />
                     <br></br>
                     <br></br>
-                    <img src={require("../../Asset/subpage/onepage2.jpeg").default} />
+                    <img src={require("../../../Asset/subpage/twopage3.jpeg").default} />
                     <br></br>
                     <br></br>
+                    <img src={require("../../../Asset/subpage/twopage4.jpeg").default} />
             </center>
         </div>
     );

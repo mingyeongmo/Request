@@ -1,6 +1,6 @@
 import React from 'react';
 import Aside from '../Aside';
-import Center from '../Center';
+import Center from '../Center/Center2';
 
 const SubContents2 = () => {
     return (
